@@ -6,3 +6,5 @@ int main() {
     printf("Octal: %o",a);
     return 0;
 }
+// %x for lowercase 
+//%X for uppercase 
