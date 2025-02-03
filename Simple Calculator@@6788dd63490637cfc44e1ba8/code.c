@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int a,b;
     char c;
@@ -15,7 +14,12 @@ int main() {
         printf("%d",a*b);
         break;
         case '/':
-        printf("%d",a/b);
+        if(b!=0){
+            priintf("%d",a/b);
+        }
+        else{
+            printf("error");
+        }
         break;
         default:
         printf("error");
