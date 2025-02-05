@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main(){
     int n;
     scanf("%d",&n);
     //upper half
@@ -9,7 +9,7 @@ int main() {
             printf(" ");
         }
         //stars
-        for(int j=0;j<2*i+1;j++){
+        for(int j=0;j<(2*i)+1;j++){
             printf("*");
         }
         //spaces
@@ -18,25 +18,21 @@ int main() {
         }
         printf("\n");
     }
-    
-        //lower half
-    (for i=n-1;i>=1;i--){
+    //lower half
+    for(int i =n-1;i>=1;i--){
         //spaces
-        for(int i=1;i<=n-i;i++){
-            print(" ");
+        for(int j=1;j<=n-i;j++){
+            printf(" ");
         }
         //stars
-        for(int i=1;i<=(2*i)-1;i++){
+        for(int j=1;j<=(2*i)-1;j++){
             printf("*");
         }
         //spaces
-        for(int i=1;i<=n-i;i++){
+        for(int j=1;j<=n-i;j++){
             printf(" ");
         }
         printf("\n");
     }
-
-        
-
     return 0;
 }
