@@ -18,6 +18,7 @@ int main() {
         }
         printf("\n");
     }
+    
         //lower half
         (for i=n-1;i>=1;i++){
             //spaces
@@ -32,8 +33,10 @@ int main() {
             for(int i=1;i<=n-i;i++){
                 printf(" ");
             }
+            printf("\n");
         }
-        printf("\n");
+
+        
 
     return 0;
 }
