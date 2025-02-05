@@ -20,21 +20,21 @@ int main() {
     }
     
         //lower half
-        (for i=n-1;i>=1;i--){
-            //spaces
-            for(int i=1;i<=n-i;i++){
-                print(" ");
-            }
-            //stars
-            for(int i=1;i<=(2*i)-1;i++){
-                printf("*");
-            }
-            //spaces
-            for(int i=1;i<=n-i;i++){
-                printf(" ");
-            }
-            printf("\n");
+    (for i=n-1;i>=1;i--){
+        //spaces
+        for(int i=1;i<=n-i;i++){
+            print(" ");
         }
+        //stars
+        for(int i=1;i<=(2*i)-1;i++){
+            printf("*");
+        }
+        //spaces
+        for(int i=1;i<=n-i;i++){
+            printf(" ");
+        }
+        printf("\n");
+    }
 
         
 
