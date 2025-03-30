@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-int swap(int &a,int &b){
+int swap(int a,int b){
     int temp=arr[mini];
     int arr[mini]=arr[i];
     int arr[i]=temp;
